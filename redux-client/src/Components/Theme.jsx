@@ -29,7 +29,7 @@ const Theme = () => {
   };
 
   return (
-    <div className="flex justify-center items-center ">
+    <div className="flex justify-center items-center transition-all ">
       <button
         onClick={handleThemeSwitch}
         className="text-gray-700 dark:text-[#38bdf8] px-3 py-2 rounded-md text-sm font-medium"
